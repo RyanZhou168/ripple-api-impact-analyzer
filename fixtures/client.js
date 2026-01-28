@@ -9,3 +9,5 @@ function fetchProduct(id) {
     const url = `/products/${id}`;
     axios.get(url);
 }
+
+// TODO: remove /old/legacy-endpoint
